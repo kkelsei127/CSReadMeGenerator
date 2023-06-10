@@ -56,7 +56,7 @@ namespace ReadMeGeneratorCS
         {
             List<Prompt> prompts = GetPrompts();
             Util.PrintReadMe(prompts);
-            Util.MakeCSV(prompts);
+            Util.MakeReadMe(prompts);
             //not sure how to make a md file, currently will have it made into a csv?
             await Util.MakeReadMe(prompts);
         }
